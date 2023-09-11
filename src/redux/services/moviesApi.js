@@ -6,8 +6,6 @@ export const moviesApi = createApi({
     baseUrl: 'https://moviesminidatabase.p.rapidapi.com',
     prepareHeaders: (headers) => {
       headers.set('X-RapidAPI-Key', import.meta.env.VITE_APP_RAPID_API_KEY);
-      console.log(import.meta.env.VITE_APP_RAPID_API_KEY);
-
       return headers;
     },
   }),
