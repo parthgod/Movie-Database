@@ -18,7 +18,7 @@ const Search = () => {
   }, [])
 
   return (
-    <Box py={15} px={5}>
+    <Box py={15} px={10}>
       <Stack mb={5}>
         <Typography variant='h4'>Movies</Typography>
         <ShowMovies data={movieData?.results} />
